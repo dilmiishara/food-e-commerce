@@ -24,3 +24,14 @@ h1,h2{
     background-color: #009688;
     color: #fff;
 }
+
+section{
+    scroll-margin: 50px;
+}
+
+.client-img{
+    object-fit: contain;
+    width: 120px;
+    padding: 0 2%;
+}
+
