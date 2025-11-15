@@ -65,3 +65,26 @@ section{
     font-weight: bold;
 }
 
+.portfolio-card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio-img{
+    object-fit: cover;
+    height: 450px;
+    filter: brightness(0.9);
+}
+
+.portfolio-description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+}
+
